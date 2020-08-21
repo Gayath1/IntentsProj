@@ -22,11 +22,11 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        txt1= findViewById(R.id.editText2);
+        txt3= findViewById(R.id.editText2);
         txt2= findViewById(R.id.editText3);
     }
     public void onClick(View view){
-        no1 = txt1.getText().toString();
+        no1 = txt3.getText().toString();
         no2= txt2.getText().toString();
 
         Intent intent = new Intent( this, SecondActivity.class);
